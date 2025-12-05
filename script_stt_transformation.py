@@ -97,7 +97,7 @@ default_args = {
 
 with DAG(
     dag_id="transformation_stt_data",
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2025, 12, 4),
     schedule_interval=None,
     catchup=False,
 ):
@@ -132,3 +132,4 @@ with DAG(
     )
 
     [load_stt1, load_stt2] >> [cleaning_stt1, cleaning_stt2] >> transformation_stt_task
+
