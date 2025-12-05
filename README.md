@@ -9,7 +9,7 @@ Pipeline ini merupakan ETL (Extract, Transform, Load) menggunakan Apache Airflow
 
 project/
 
-│── script_transform_stt.py
+│── script_stt_transformation.py
 
 │── STT1.csv
 
